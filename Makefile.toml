@@ -1,0 +1,16 @@
+[config]
+default_to_workspace = false
+
+[tasks.format-fix-rustfmt]
+toolchain = "nightly"
+command = "cargo"
+args = ["fmt"]
+
+[tasks.format-fix-clippy]
+command = "cargo"
+args = ["clippy", "--fix", "--allow-dirty", "--allow-staged"]
+
+[tasks.lint-fix]
+run_task = [
+  { name = ["format-fix-rustfmt", "format-fix-clippy"] },
+]

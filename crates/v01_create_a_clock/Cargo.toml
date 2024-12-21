@@ -1,0 +1,9 @@
+[package]
+name = "v01_create_a_clock"
+version = "0.1.0"
+edition = "2021"
+description = "The Bevy version for the tutorials under https://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/"
+
+[dependencies]
+bevy = "0.15.0"
+chrono = "0.4.39"
