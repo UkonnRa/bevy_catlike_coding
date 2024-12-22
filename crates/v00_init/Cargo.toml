@@ -1,0 +1,8 @@
+[package]
+name = "v00_init"
+version = "0.1.0"
+edition = "2021"
+description = "The shared items for the total tutorial"
+
+[dependencies]
+bevy = "0.15.1"

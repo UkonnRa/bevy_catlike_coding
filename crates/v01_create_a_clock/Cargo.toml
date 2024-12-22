@@ -5,5 +5,6 @@ edition = "2021"
 description = "The Bevy version for the tutorials under https://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/"
 
 [dependencies]
-bevy = "0.15.0"
+bevy = "0.15.1"
 chrono = "0.4.39"
+v00_init = { path = "../v00_init" }

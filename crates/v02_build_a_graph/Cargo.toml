@@ -1,0 +1,9 @@
+[package]
+name = "v02_build_a_graph"
+version = "0.1.0"
+edition = "2021"
+description = "The Bevy version for the tutorials under https://catlikecoding.com/unity/tutorials/basics/building-a-graph/"
+
+[dependencies]
+bevy = "0.15.1"
+v00_init = { path = "../v00_init" }
